@@ -46,6 +46,7 @@ Page {
   font-size: 20;
   width: 50;
   height: 50;
+  padding-top: 28px;
   text-align: center;
   vertical-align: middle;
 }
