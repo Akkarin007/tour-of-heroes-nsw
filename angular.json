@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "tour-of-heroes-nsw"
+    }
+  },
+  "defaultProject": "tour-of-heroes-nsw",
+  "cli": {
+    "defaultCollection": "@nativescript/schematics"
+  }
 }

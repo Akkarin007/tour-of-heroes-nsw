@@ -1,0 +1,51 @@
+/*
+Add your NativeScript specific styles here.
+To learn more about styling in NativeScript see:
+https://docs.nativescript.org/angular/ui/styling
+*/
+
+.container {
+  background-color: #EDECF2;
+}
+
+.main-name {
+  background-color: #2A48CD;
+  font-size: 36;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  padding: 0 0 15 0;
+}
+
+.grid {
+  margin: 30;
+}
+
+.circle {
+  background-color: #C6D7FE;
+  color: #2A48CD;
+}
+.name {
+  font-size: 22;
+  font-weight: bold;
+  margin-left: 20;
+}
+.id-label {
+  text-align: center;
+}
+.name-label {
+  margin-left: 20;
+}
+.id-label, .name-label {
+  margin-top: 10;
+  color: #ABABAB;
+}
+
+.btn {
+  background-color: #2A48CD;
+  color: white;
+  font-weight: bold;
+  font-size: 18;
+  padding: 15 0;
+  border-radius: 25;
+}

@@ -1,0 +1,13 @@
+<StackLayout>
+  <TextField #heroName
+    hint="enter hero name"
+    autocorrect="false"
+    (loaded)="heroName.text = ''"
+    (textChange)="search($event.value)">
+  </TextField>
+  <ListView [items]="heroes$ | async" class="list-group">
+    <ng-template let-hero="item">
+      <Label [text]="hero.name" nsRouterLink="/detail/{{hero.id}}" class="list-group-item"></Label>
+    </ng-template>
+  </ListView>
+</StackLayout>

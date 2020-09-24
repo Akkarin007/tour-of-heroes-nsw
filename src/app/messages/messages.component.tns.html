@@ -1,0 +1,10 @@
+<drawer-action-bar title=''></drawer-action-bar>
+<GridLayout rows="auto, *, auto, 5">
+  <Label text="Messages" class="header"></Label>
+  <ScrollView row="1">
+    <StackLayout>
+      <Label *ngFor='let message of messageService.messages' [text]="message" class="message"></Label>
+    </StackLayout>
+  </ScrollView>
+  <Button row="2" text="Clear" (tap)="messageService.clear()" class="clear"></Button>
+</GridLayout>
